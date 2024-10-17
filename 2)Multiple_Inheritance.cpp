@@ -3,7 +3,6 @@
 #include<string>
 using namespace std;
 
-//Parent Class-1
 class Vehicle 
 {
     public:
@@ -13,7 +12,7 @@ class Vehicle
         cout<<"Swift"<<endl;
     }
 };
-//Parent Class-2
+
 class Specs 
 {
     public:
@@ -23,7 +22,6 @@ class Specs
         cout<<"Red and White"<<endl;
     }
 };
-//Child Class-1 (derived from parent-1&2)
 class Car: public Vehicle, public Specs 
 {
     public:
@@ -32,7 +30,6 @@ class Car: public Vehicle, public Specs
 
 int main()
 {
-    //Multiple Inheritance
     Car f1;
     f1.colour();
     cout<<f1.company<<" ";
