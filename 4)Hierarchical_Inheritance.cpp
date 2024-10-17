@@ -4,7 +4,6 @@
 #include<string>
 using namespace std;
 
-//Parent Class-1
 class Jeans 
 {
     public:
@@ -14,26 +13,22 @@ class Jeans
         cout<<"H&M - &Denim"<<endl;
     }
 };
-//Child Class-1
 class Bootcut: public Jeans 
 {
     public:
     string color="Dark Blue";
 };
-//Child Class-2
 class WL: public Jeans 
 {
     public:
     string color="Black";
 };
-//Child Class-3
 class Skinny: public Jeans 
 {
     public:
     string color="Grey";
 };
 
-//Hierarchical Inheritance
 int main()
 {
     Bootcut j1;
